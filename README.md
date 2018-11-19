@@ -36,13 +36,13 @@ The script outputs two images: a static (pun intended) image `person_blocked.png
 ## Examples
 
 ```shell
-python3 person_blocker.py -i images/person.jpg
+python3 person_blocker.py -i images/kite.jpg
 ```
 
-![person](output/person.png)
+![kite](output/kite.png)
 
 ```shell
-python3 person_blocker.py -i images/giraffe.jpg -c '#c0392b' -o 'giraffe'
+python3 person_blocker.py -i images/giraffe.jpg -c '#c0392b' -o 'zebra'
 ```
 
 ![giraffe](output/giraffe.png)
