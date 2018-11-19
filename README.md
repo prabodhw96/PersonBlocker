@@ -35,6 +35,22 @@ The script outputs two images: a static (pun intended) image `person_blocked.png
 
 ## Examples
 
+```shell
+python3 person_blocker.py -i images/person.jpg
+```
+
+![person](output/person.png)
+
+```shell
+python3 person_blocker.py -i images/giraffe.jpg -c '#c0392b' -o 'giraffe'
+```
+
+![giraffe](output/giraffe.png)
+
+```shell
+python3 person_blocker.py -i images/img3.jpg -c '(128, 128, 128)' -o 'bus' 'truck'
+```
+
 ![img3](output/img3.png)
 
 Blocking specific object(s) requires 2 steps: running in inference mode to get the object IDs for each object, and then blocking those object IDs.
